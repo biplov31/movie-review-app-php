@@ -1,0 +1,100 @@
+/* userCollection.html */
+*{
+  box-sizing: border-box;
+  padding: 0;
+}
+body, html{
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.wrapper2{
+  width: 90%;
+  margin: 0 auto;
+}
+.parallax{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parallax.header-content{
+  background-image: url(./img/film3.jpg);
+  min-height: 180px;
+  opacity: 0.7;
+}
+.par-text{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.par-text span{
+  color: #fff;
+  background-color: #111;
+  padding: 10px;
+}
+.main{
+  position: relative;
+  height: 100%;
+}
+.parallax.main-content{
+  background-image: url(./img/film1.jpg);
+  height: 200vh;
+  z-index: -100;
+  opacity: 0.4;
+}
+
+/* .parallax:nth-child(2){
+  background-image: url(./img/film2.jpg);
+  min-height: 400px;
+}
+.parallax:nth-child(3){
+  background-image: url(./img/film1.jpg);
+  min-height: 400px;
+} */
+.movie-list{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 20px;
+}
+.listed-movie{
+  display: flex;
+  padding: 15px;
+  background-color: rgba(85, 85, 82, 0.94);
+  border-radius: 10px;
+  width: 55%;
+  margin: 20px auto;
+}
+.listed-movie img{
+  height: 150px;
+  object-fit: cover;
+  border-radius: 15px;
+  width: 40%;
+}
+.text-content{
+  text-align: center;
+  display: inline-block;
+  width: 70%;
+  color: aliceblue;
+}
+.text-content > span {
+  font-size: 20px;
+  font-weight: 800;
+}
+.parallax.footer-content{
+  background-image: url(./img/film3.jpg);
+  height: 140px;
+  background-position: top;
+}
