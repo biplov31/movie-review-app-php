@@ -49,7 +49,7 @@ header{
 }
 
 .movie-info{
-  background-image: url(./img/netflix-poster.jpg);
+  background-image: url(../img/netflix-poster.jpg);
   height: 500px;
   background-size: contain;
   background-position: center;
@@ -78,16 +78,16 @@ header{
   background-position: center;
 }
 .img-card1{
-  background-image: url(./img/ant-man.jpeg);
+  background-image: url(../img/ant-man.jpeg);
 }
 .img-card2{
-  background-image: url(./img/avatar.jpg);
+  background-image: url(../img/avatar.jpg);
 }
 .img-card3{
-  background-image: url(./img/black-adam.jpg);
+  background-image: url(../img/black-adam.jpg);
 }
 .img-card4{
-  background-image: url(./img/faltu-movie.jpg);
+  background-image: url(../img/faltu-movie.jpg);
 }
 .movie-list{
   display: flex;
